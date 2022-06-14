@@ -1,42 +1,44 @@
 #### Петропавловский Андрей
 **Команда** Ascomycetes (1)  
-**Виды** Hanseniaspora, Lachancea   
+**Виды** Hanseniaspora, Pneumocystis   
   
   
 | genome                               | assembly        | size (Mb) | GC % | scaffolds |
 |--------------------------------------|-----------------|-----------|------|-----------|
-| Hanseniaspora opuntiae               | GCA_001749795.1 |   8,83196 | 34,7 |        17 |
-| Hanseniaspora osmophila              | GCA_001747045.1 |   11,4584 | 36,7 |        17 |
-| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 |    11,464 | 22,6 |       647 |
-| Lachancea lanzarotensis              | GCA_000938715.1 |   11,0921 | 44,3 |        24 |
-| Lachancea quebecensis                | GCA_002900925.1 |   10,2294 | 46,7 |        51 |
-  
+| Hanseniaspora opuntiae               | GCA_001749795.1 | 8,83196   | 34,7 | 17        |
+| Hanseniaspora osmophila              | GCA_001747045.1 | 11,4584   | 36,7 | 17        |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | 11,464    | 22,6 | 647       |
+| Pneumocystis canis                   | GCA_017311265.1 | 7,93945   | 26,3 | 78        |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | 7,63947   | 27,8 | 38        | 
+
 Ссылка на колаб: [тык](https://colab.research.google.com/drive/1_jpbdqkMfipWSM7A3ku9TK2gc9DxRwrH?usp=sharing)
 
 Анализ аннотированных генов
 ---
-| genome                               | length   | exon count | exon length | exon coverage |
-|--------------------------------------|----------|------------|-------------|---------------|
-| Hanseniaspora opuntiae               |  8831957 |       4345 |     6425749 |      0.727557 |
-| Hanseniaspora osmophila              | 11458415 |       4822 |     7714363 |      0.673249 |
-| Hanseniaspora valbyensis NRRL Y-1626 | 11464036 |       5820 |     7077752 |      0.617387 |
-| Lachancea lanzarotensis              | 11092131 |       5772 |     7527251 |      0.678612 |
-| Lachancea quebecensis                | 10229370 |       5769 |     7543682 |      0.737453 |
+| genome                               | length   | exon count | total exon length | exon coverage |
+|--------------------------------------|----------|------------|-------------------|---------------|
+| Hanseniaspora opuntiae               | 8831957  | 4345       | 6425749           | 0.727557      |
+| Hanseniaspora osmophila              | 11458415 | 4822       | 7714363           | 0.673249      |
+| Hanseniaspora valbyensis NRRL Y-1626 | 11464036 | 5820       | 7077752           | 0.617387      |
+| Pneumocystis canis                   | 7939452  | 21806      | 4722332           | 0.594793      |
+| Pneumocystis oryctolagi              | 7639465  | 20032      | 4449820           | 0.582478      |
 
 Предсказание участков Z-DNA
 ---
 | genome                               | z-dna count | z-dna length |
-|--------------------------------------|------------:|--------------|
-| Hanseniaspora opuntiae               |        1552 |        16290 |
-| Hanseniaspora osmophila              |       10130 |       109914 |
-| Hanseniaspora valbyensis NRRL Y-1626 |         994 |        11204 |
-| Lachancea lanzarotensis              |       13887 |       141102 |
-| Lachancea quebecensis                |       36547 |       365936 |  
+|--------------------------------------|-------------|:------------:|
+| Hanseniaspora opuntiae               | 1552        | 16290        |
+| Hanseniaspora osmophila              | 10130       | 109914       |
+| Hanseniaspora valbyensis NRRL Y-1626 | 994         | 11204        |
+| Pneumocystis canis                   | 1396        | 14264        |
+| Pneumocystis oryctolagi              | 5548        | 57176        |  
   
 Распределение ZH-Score  
-<img width="641" alt="image" src="https://user-images.githubusercontent.com/49417479/173447894-6bd453f4-2162-4a45-9740-c3a3e6e6750b.png">
-<img width="631" alt="image" src="https://user-images.githubusercontent.com/49417479/173447936-a78fbf93-4a0c-422f-852d-b00dde893188.png">
-<img width="599" alt="image" src="https://user-images.githubusercontent.com/49417479/173447988-38cba0cd-e138-4733-910c-9de3dea039f6.png">
+<img width="666" alt="image" src="https://user-images.githubusercontent.com/49417479/173581543-f75d4ba5-6d7c-4926-a2e4-c323ae7cdf98.png">
+<img width="652" alt="image" src="https://user-images.githubusercontent.com/49417479/173581618-cd278bc8-45d0-49ee-9725-590262850bc5.png">
+<img width="657" alt="image" src="https://user-images.githubusercontent.com/49417479/173581712-e89138bc-a76e-4bfc-b3ce-b445a59385bd.png">
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/49417479/173581772-7cc89f4a-2d12-492c-ae2b-a460452eb471.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/49417479/173581844-96eaa04a-d7cb-4f5f-b95b-bb669424c1bf.png">
 
 Кластеризация
 ---
