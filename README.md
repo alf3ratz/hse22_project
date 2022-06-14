@@ -42,68 +42,72 @@
 
 Кластеризация
 ---
-**Всего найдено кластеров** 5488  
-<img width="415" alt="image" src="https://user-images.githubusercontent.com/49417479/173469331-d2026fcb-5243-4827-93ab-565a60227cee.png">  
+**Всего найдено кластеров** 4824  
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/49417479/173678779-2204a3ca-3b43-42dc-bb68-59ba31dfb935.png">  
 ### Cluster 1
-**mean score** 32462.629980  
-| genome                               |        protein | gene             | mean score   |
-|--------------------------------------|---------------:|------------------|--------------|
-| Hanseniaspora opuntiae               |     OEJ89755.1 |   AWRI3578_g1409 |  2180.071000 |
-| Hanseniaspora osmophila              |     OEJ80362.1 |   AWRI3579_g4516 | 95051.921810 |
-| Hanseniaspora valbyensis NRRL Y-1626 |     OBA28950.1 | HANVADRAFT_50905 |   929.209300 |
-| Lachancea lanzarotensis              | XP_022630444.1 | LALA0_S10e05578g |   623.121760 |
-| Lachancea quebecensis                |     CUS22628.1 | LAQU0_S06e02344g |  1490.883889 |  
+**mean score** 79253.220583 
+| genome                               | assembly        | protein      | gene             | mean score | function |
+|--------------------------------------|-----------------|--------------|------------------|------------|----------|
+| Hanseniaspora opuntiae               | GCA_001749795.1 | OEJ92164.1   | AWRI3578_g18     | 1285.31065 |          |
+| Hanseniaspora osmophila              | GCA_001747045.1 | OEJ82131.1   | AWRI3579_g3619   | 941334.2   |          |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | OBA28273.1   | HANVADRAFT_37177 | 883.5764   |          |
+| Pneumocystis canis                   | GCA_017311265.1 | KAG4302090.1 | PCK1_001649      | 806.0242   |          |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | KAG4306517.1 | PORY_000505      | 766.43534  |          |  
 ### Cluster 2
-**mean score** 22333.355226  
-| genome                               |        protein | gene             | mean score    |
-|--------------------------------------|---------------:|------------------|---------------|
-| Hanseniaspora opuntiae               |     OEJ88069.1 |   AWRI3578_g1637 |    698.130367 |
-| Hanseniaspora osmophila              |     OEJ84971.1 |   AWRI3579_g1797 | 135266.059229 |
-| Hanseniaspora valbyensis NRRL Y-1626 |     OBA25870.1 |  HANVADRAFT_7651 |    847.619836 |
-| Lachancea lanzarotensis              | XP_022629581.1 | LALA0_S08e00738g |   1741.039153 |
-| Lachancea quebecensis                |     CUS21747.1 | LAQU0_S03e09824g |  16231.343811 |  
+**mean score** 4847.459959  
+| genome                               | assembly        | protein      | gene             | mean score   | function |
+|--------------------------------------|-----------------|--------------|------------------|--------------|----------|
+| Hanseniaspora opuntiae               | GCA_001749795.1 | OEJ81489.1   | AWRI3578_g4153   | 1371.0014    |          |
+| Hanseniaspora osmophila              | GCA_001747045.1 | OEJ84262.1   | AWRI3579_g2460   | 4072.279315  |          |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | OBA25783.1   | HANVADRAFT_53675 | 862.1207     |          |
+| Pneumocystis canis                   | GCA_017311265.1 | KAG4301859.1 | PCK1_001835      | 896.953774   |          |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | KAG4304319.1 | PORY_002294      | 10831.652825 |          |  
 ### Cluster 3
-**mean score** 19937.130367  
-| genome                               |        protein | gene             | mean score   |
-|--------------------------------------|---------------:|------------------|--------------|
-| Hanseniaspora opuntiae               |     OEJ81637.1 |   AWRI3578_g3856 |   650.919800 |
-| Hanseniaspora osmophila              |     OEJ83139.1 |   AWRI3579_g3202 |   953.714600 |
-| Hanseniaspora valbyensis NRRL Y-1626 |     OBA27143.1 | HANVADRAFT_55855 |   612.384800 |
-| Lachancea lanzarotensis              | XP_022628248.1 | LALA0_S04e05886g |  1154.666500 |
-| Lachancea quebecensis                |     CUS24369.1 | LAQU0_S16e00144g | 28399.067882 |  
+**mean score** 3906.482003  
+| genome                               | assembly        | protein      | gene             | mean score  | function |
+|--------------------------------------|-----------------|--------------|------------------|-------------|----------|
+| Hanseniaspora opuntiae               | GCA_001749795.1 | OEJ84474.1   | AWRI3578_g2587   | 905.6763    |          |
+| Hanseniaspora osmophila              | GCA_001747045.1 | OEJ90838.1   | AWRI3579_g513    | 756.29165   |          |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | OBA28608.1   | HANVADRAFT_51483 | 583.4285    |          |
+| Pneumocystis canis                   | GCA_017311265.1 | KAG4300576.1 | PCK1_003005      | 879.43746   |          |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | KAG4304822.1 | PORY_001875      | 5528.379305 |          |  
 ### Cluster 4
-**mean score** 17591.146310
-| genome                               |        protein | gene             | mean score   |
-|--------------------------------------|---------------:|------------------|--------------|
-| Hanseniaspora opuntiae               |     OEJ82251.1 |   AWRI3578_g3361 |  2166.647000 |
-| Hanseniaspora osmophila              |     OEJ85034.1 |   AWRI3579_g2343 |  1425.440533 |
-| Hanseniaspora valbyensis NRRL Y-1626 |     OBA25379.1 | HANVADRAFT_42158 |  2739.137681 |
-| Lachancea lanzarotensis              | XP_022629877.1 | LALA0_S08e07800g |  2096.026000 |
-| Lachancea quebecensis                |     CUS22698.1 | LAQU0_S06e03994g | 44605.378156 | 
+**mean score** 3546.943006
+| genome                               | assembly        | protein      | gene             | mean score  | function |
+|--------------------------------------|-----------------|--------------|------------------|-------------|----------|
+| Hanseniaspora opuntiae               | GCA_001749795.1 | OEJ85904.1   | AWRI3578_g2516   | 2721.81725  |          |
+| Hanseniaspora osmophila              | GCA_001747045.1 | OEJ82055.1   | AWRI3579_g3837   | 1166.85944  |          |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | OBA28431.1   | HANVADRAFT_58258 | 818.0897    |          |
+| Pneumocystis canis                   | GCA_017311265.1 | KAG4301968.1 | PCK1_001944      | 967.760862  |          |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | KAG4304344.1 | PORY_002319      | 4294.902121 |          | 
 ### Cluster 5
-**mean score** 16594.463266  
-| genome                               |        protein | gene             | mean score   |
-|--------------------------------------|---------------:|------------------|--------------|
-| Hanseniaspora opuntiae               |     OEJ82294.1 |   AWRI3578_g3225 |   922.589300 |
-| Hanseniaspora osmophila              |     OEJ85396.1 |   AWRI3579_g2423 |   783.823000 |
-| Hanseniaspora valbyensis NRRL Y-1626 |     OBA25943.1 | HANVADRAFT_53543 |   772.909500 |
-| Lachancea lanzarotensis              | XP_022629781.1 | LALA0_S08e05578g |  1979.978373 |
-| Lachancea quebecensis                |     CUS25061.1 | LAQU0_S26e00144g | 20521.624407 |  
+**mean score** 2961.48417  
+| genome                               | assembly        | protein      | gene             | mean score  | function |
+|--------------------------------------|-----------------|--------------|------------------|-------------|----------|
+| Hanseniaspora opuntiae               | GCA_001749795.1 | OEJ89701.1   | AWRI3578_g888    | 683.62575   |          |
+| Hanseniaspora osmophila              | GCA_001747045.1 | OEJ83818.1   | AWRI3579_g2797   | 2291.4197   |          |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | OBA26112.1   | HANVADRAFT_53427 | 692.45525   |          |
+| Pneumocystis canis                   | GCA_017311265.1 | KAG4302498.1 | PCK1_001225      | 1334.931467 |          |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | KAG4304608.1 | PORY_002001      | 4454.478885 |          |  
 ### Cluster 6
-**mean score** 14301.990130  
-| genome                               |        protein | gene             | mean score   |
-|--------------------------------------|---------------:|------------------|--------------|
-| Hanseniaspora opuntiae               |     OEJ83338.1 |   AWRI3578_g3184 |   766.623200 |
-| Hanseniaspora osmophila              |     OEJ81062.1 |   AWRI3579_g4257 |   876.284680 |
-| Hanseniaspora valbyensis NRRL Y-1626 |     OBA26456.1 | HANVADRAFT_53066 |   629.227175 |
-| Lachancea lanzarotensis              | XP_022629050.1 | LALA0_S06e04764g |  1315.030439 |
-| Lachancea quebecensis                |     CUS21469.1 | LAQU0_S03e03312g | 21266.522591 |  
+**mean score** 2823.772685  
+| genome                               | assembly        | protein      | gene             | mean score  | function |
+|--------------------------------------|-----------------|--------------|------------------|-------------|----------|
+| Hanseniaspora opuntiae               | GCA_001749795.1 | OEJ85735.1   | AWRI3578_g2338   | 731.2843    |          |
+| Hanseniaspora osmophila              | GCA_001747045.1 | OEJ82128.1   | AWRI3579_g3588   | 2920.59736  |          |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | OBA28299.1   | HANVADRAFT_21988 | 745.912     |          |
+| Pneumocystis canis                   | GCA_017311265.1 | KAG4303251.1 | PCK1_000589      | 1731.4905   |          |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | KAG4304543.1 | PORY_001936      | 3629.458456 |          |  
 ### Cluster 7
-**mean score** 13453.281037  
-| genome                               |        protein | gene             | mean score   |
-|--------------------------------------|---------------:|------------------|--------------|
-| Hanseniaspora opuntiae               |     OEJ87388.1 |   AWRI3578_g1587 |   748.005000 |
-| Hanseniaspora osmophila              |     OEJ80427.1 |   AWRI3579_g4400 |  2342.808413 |
-| Hanseniaspora valbyensis NRRL Y-1626 |     OBA20836.1 |  HANVADRAFT_8574 |  1755.574043 |
-| Lachancea lanzarotensis              | XP_022630655.1 | LALA0_S11e04324g |   857.802989 |
-| Lachancea quebecensis                |     CUS24685.1 | LAQU0_S18e01948g | 30099.980107 |
+**mean score** 2738.862471  
+| genome                               | assembly        | protein      | gene             | mean score  | function |
+|--------------------------------------|-----------------|--------------|------------------|-------------|----------|
+| Hanseniaspora opuntiae               | GCA_001749795.1 | OEJ87361.1   | AWRI3578_g1577   | 844.35818   |          |
+| Hanseniaspora osmophila              | GCA_001747045.1 | OEJ80319.1   | AWRI3579_g4414   | 2548.656258 |          |
+| Hanseniaspora valbyensis NRRL Y-1626 | GCA_001664025.1 | OBA25130.1   | HANVADRAFT_54100 | 1590.446341 |          |
+| Pneumocystis canis                   | GCA_017311265.1 | KAG4303031.1 | PCK1_000697      | 1055.728771 |          |
+| Pneumocystis oryctolagi              | GCA_017311285.1 | KAG4303910.1 | PORY_002654      | 3728.237386 |          |
+
+Белковые выравнивания
+---
+Выравнивания производились с помощью `muscle`. Найти файлы для каждого кластера можно [тут](https://github.com/alf3ratz/hse22_project/tree/main/aligned_clusters)
